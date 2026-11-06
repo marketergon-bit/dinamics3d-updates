@@ -1,0 +1,17 @@
+{
+    "version":  "1.0.0",
+    "rbz":  "https://raw.githubusercontent.com/marketergon-bit/dinamics3d-updates/main/dinamics_swap_1.0.0.rbz",
+    "sha256":  "0ba183f6e167bbfcd25ac697672fa10077c25284e928348cea39a62cdc6f9fdc",
+    "min_sketchup":  21,
+    "notes":  {
+                  "es":  [
+                             "Primera versión de producción de Dinamics3D."
+                         ],
+                  "en":  [
+                             "First production version of Dinamics3D."
+                         ],
+                  "pt":  [
+                             "Primeira versão de produção do Dinamics3D."
+                         ]
+              }
+}
