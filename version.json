@@ -1,17 +1,26 @@
 {
-    "version":  "1.0.0",
-    "rbz":  "https://raw.githubusercontent.com/marketergon-bit/dinamics3d-updates/main/dinamics_swap_1.0.0.rbz",
-    "sha256":  "0ba183f6e167bbfcd25ac697672fa10077c25284e928348cea39a62cdc6f9fdc",
+    "version":  "1.1.0",
+    "rbz":  "https://raw.githubusercontent.com/marketergon-bit/dinamics3d-updates/main/dinamics_swap_1.1.0.rbz",
+    "sha256":  "784e3d67200b6903c405c299d753eb6ab181b0f8ef17de32f6ed14342d293230",
     "min_sketchup":  21,
     "notes":  {
                   "es":  [
-                             "Primera versión de producción de Dinamics3D."
+                             "Nueva pestaña «Medidas»: cambiá el ancho, el alto, la profundidad y las opciones de un módulo sin abrir la ventana de Componentes Dinámicos.",
+                             "La pestaña «Modulares» ahora se llama «Componentes».",
+                             "Al insertar un juego de cajones en un módulo, reemplaza el anterior en vez de duplicarlo.",
+                             "Si los frentes de los cajones quedan de distinta altura, te avisa por qué y dónde cambiarlo."
                          ],
                   "en":  [
-                             "First production version of Dinamics3D."
+                             "New \"Sizes\" tab: change a module\u0027s width, height, depth and options without opening the Dynamic Components window.",
+                             "The \"Modular\" tab is now called \"Components\".",
+                             "Inserting a drawer set into a module now replaces the previous one instead of duplicating it.",
+                             "If drawer fronts end up with different heights, you are told why and where to change it."
                          ],
                   "pt":  [
-                             "Primeira versão de produção do Dinamics3D."
+                             "Nova aba «Medidas»: altere a largura, a altura, a profundidade e as opções de um módulo sem abrir a janela de Componentes Dinâmicos.",
+                             "A aba «Modulares» agora se chama «Componentes».",
+                             "Ao inserir um conjunto de gavetas em um módulo, ele substitui o anterior em vez de duplicar.",
+                             "Se as frentes das gavetas ficarem com alturas diferentes, o plugin avisa o motivo e onde alterar."
                          ]
               }
 }
