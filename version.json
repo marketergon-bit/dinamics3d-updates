@@ -1,7 +1,7 @@
 {
-    "version":  "1.1.3",
-    "rbz":  "https://raw.githubusercontent.com/marketergon-bit/dinamics3d-updates/main/dinamics_swap_1.1.3.rbz",
-    "sha256":  "0dc56083280431ed6dd9227101ec0c11803591843dcc83c63b672f6525f20b64",
+    "version":  "1.1.16",
+    "rbz":  "https://raw.githubusercontent.com/marketergon-bit/dinamics3d-updates/main/dinamics_swap_1.1.16.rbz",
+    "sha256":  "12bba1566186edf4e4f5f6495df76cceb1ee5d5cc0cf47315a00540685586aa6",
     "min_sketchup":  21,
     "notes":  {
                   "es":  [
@@ -10,7 +10,20 @@
                              "Si el servidor tarda más de un minuto, el botón se libera con un aviso en vez de quedar en «Verificando…».",
                              "Más estable en Mac: los comandos del sistema tienen un tope de tiempo y no pueden colgar SketchUp.",
                              "Si la ventana del panel no carga en tu equipo, se vuelve a cargar sola. Nuevo menú Extensiones › Dinamics3D › «Guardar diagnóstico» para soporte.",
-                             "Más estable en SketchUp 2021, 2022 y 2023: si algo falla al cargar el panel o al guardar la sesión, ya no queda vacío y avisa."
+                             "Más estable en SketchUp 2021, 2022 y 2023: si algo falla al cargar el panel o al guardar la sesión, ya no queda vacío y avisa.",
+                             "Más estable al usar los bloques dinámicos: el panel ya no calcula la selección en medio de un deshacer o un reemplazo, y SketchUp deja anotado en el diagnóstico si se cerró de golpe y qué se estaba haciendo.",
+                             "Nuevo menú «Insertar en el espacio»: elegís en qué espacio del módulo va la pieza (con su tamaño) y se marca en el modelo. El botón «+» sobre divisores y repisas ya no las suelta mal medidas.",
+                             "El menú de espacios detecta solo los espacios libres del módulo, también los que se crean al colocar un divisor (izquierda/derecha, arriba/abajo), y marca cada uno en su tamaño real.",
+                             "Menú de espacios: además de cada hueco, ofrece los grupos de huecos juntos («2–4») para poner una puerta o tapa que cubra varias repisas.",
+                             "Las repisas de esquina (DIA05) ahora se pueden insertar en cualquier módulo: el plugin agrega los datos de lado y radio (editables en «Medidas»). Las de otros tipos avisan qué módulo necesitan.",
+                             "El botón «Insertar en el espacio» ya no depende de que la carpeta se llame «ESPACIO n»: se reconoce la pieza por su nombre o código, y también funciona con los bloques de «Mis bloques».",
+                             "Menú de espacios: con la casilla «Elegir varios huecos juntos» (o Mayús + clic) se eligen varios huecos seguidos del mismo divisor (por ejemplo, las repisas sin el cajón de abajo) para una puerta o tapa que cubra solo esos. La ventana ahora se desliza cuando hay muchos huecos.",
+                             "El menú de espacios ya no ofrece huecos que quedan fuera del mueble (se veían flotando al costado) y los grupos se recalculan con los huecos reales.",
+                             "Un divisor con 6 divisiones tiene 7 huecos: ahora el séptimo (el de arriba) también se puede elegir y llenar. Y el aviso de «SketchUp se cayó» ya no se repite por error.",
+                             "Los juegos de 2, 3 y 4 cajones ya no «rompen» el módulo al insertarlos: antes el módulo se estiraba al doble de profundidad y los cajones se salían; ahora queda con su medida.",
+                             "El árbol de carpetas ya no muestra las carpetas vacías ni las que solo tienen bloques despublicados.",
+                             "Mis bloques: al guardar un bloque elegís su carpeta (o creás una nueva), podés crear carpetas con el «+» y cambiar el nombre o la carpeta de cualquier bloque propio con el lápiz. La miniatura siempre se conserva.",
+                             "Puertas por espacio: ahora podés poner una puerta de «ESPACIO 1» o «ESPACIO 2» en cualquier espacio del módulo, también en los que crea un divisor o una repisa. Elegís el espacio en el menú y la puerta toma su medida y sigue al mueble si lo agrandás."
                          ],
                   "en":  [
                              "Fixes the error when inserting blocks in SketchUp 2021, 2022 and 2023 (\"Model is of a newer model version\").",
@@ -18,7 +31,20 @@
                              "If the server takes more than a minute, the button is released with a notice instead of staying on \"Verifying…\".",
                              "More stable on Mac: system commands have a time limit and can no longer freeze SketchUp.",
                              "If the panel window fails to load on your computer, it reloads itself. New menu Extensions › Dinamics3D › \"Save diagnostics\" for support.",
-                             "More stable on SketchUp 2021, 2022 and 2023: if something fails while loading the panel or saving the session, it no longer stays empty and tells you."
+                             "More stable on SketchUp 2021, 2022 and 2023: if something fails while loading the panel or saving the session, it no longer stays empty and tells you.",
+                             "More stable with dynamic blocks: the panel no longer computes the selection in the middle of an undo or a replace, and the diagnostics note if SketchUp closed abruptly and what was being done.",
+                             "New «Insert in the space» menu: you choose which space of the module the piece goes in (with its size) and it is highlighted in the model. The «+» button on dividers and shelves no longer drops them mis-sized.",
+                             "The space menu now detects the module\u0027s free spaces by itself, including those created by placing a divider (left/right, top/bottom), and highlights each one at its real size.",
+                             "Space menu: besides each space, it offers groups of spaces together («2–4») so you can place a door or front that covers several shelves.",
+                             "Corner shelves (DIA05) can now be inserted in any module: the plugin adds the side and radius data (editable in «Sizes»). Other types tell you which module they need.",
+                             "The «Insert in the space» button no longer depends on the folder being named «ESPACIO n»: the piece is recognized by its name or code, and it also works with «My blocks».",
+                             "Space menu: with the «Choose several spaces together» box (or Shift + click) you can choose several consecutive spaces of the same divider (for example, the shelves without the drawer below) for a door or front that covers only those. The window now scrolls when there are many spaces.",
+                             "The space menu no longer offers spaces that fall outside the cabinet (they showed up floating to the side) and the groups are recalculated with the real spaces.",
+                             "A divider with 6 divisions has 7 spaces: now the seventh (the top one) can also be chosen and filled. And the «SketchUp crashed» notice no longer repeats by mistake.",
+                             "The 2, 3 and 4 drawer sets no longer «break» the module when inserted: before, the module stretched to double its depth and the drawers stuck out; now it keeps its size.",
+                             "The folder tree no longer shows empty folders or folders that only contain unpublished blocks.",
+                             "My blocks: when you save a block you choose its folder (or create a new one), you can create folders with the «+» and change the name or folder of any of your blocks with the pencil. The thumbnail is always kept.",
+                             "Doors by space: you can now put an «ESPACIO 1» or «ESPACIO 2» door in any space of the module, including the ones created by a divider or shelf. You pick the space in the menu and the door takes its size and follows the cabinet if you resize it."
                          ],
                   "pt":  [
                              "Corrige o erro ao inserir blocos no SketchUp 2021, 2022 e 2023 («Model is of a newer model version»).",
@@ -26,7 +52,20 @@
                              "Se o servidor demorar mais de um minuto, o botão é liberado com um aviso em vez de ficar em «Verificando…».",
                              "Mais estável no Mac: os comandos do sistema têm um limite de tempo e não podem travar o SketchUp.",
                              "Se a janela do painel não carregar no seu computador, ela é recarregada sozinha. Novo menu Extensões › Dinamics3D › «Salvar diagnóstico» para o suporte.",
-                             "Mais estável no SketchUp 2021, 2022 e 2023: se algo falhar ao carregar o painel ou salvar a sessão, ele não fica mais vazio e avisa."
+                             "Mais estável no SketchUp 2021, 2022 e 2023: se algo falhar ao carregar o painel ou salvar a sessão, ele não fica mais vazio e avisa.",
+                             "Mais estável com os blocos dinâmicos: o painel não calcula mais a seleção no meio de um desfazer ou de uma substituição, e o diagnóstico registra se o SketchUp fechou de repente e o que estava sendo feito.",
+                             "Novo menu «Inserir no espaço»: você escolhe em qual espaço do módulo a peça vai (com o seu tamanho) e ele é marcado no modelo. O botão «+» em divisores e prateleiras não as solta mais com a medida errada.",
+                             "O menu de espaços detecta sozinho os espaços livres do módulo, inclusive os criados ao colocar um divisor (esquerda/direita, em cima/embaixo), e marca cada um no seu tamanho real.",
+                             "Menu de espaços: além de cada vão, oferece grupos de vãos juntos («2–4») para colocar uma porta ou frente que cubra várias prateleiras.",
+                             "As prateleiras de canto (DIA05) agora podem ser inseridas em qualquer módulo: o plugin adiciona os dados de lado e raio (editáveis em «Medidas»). As de outros tipos avisam qual módulo precisam.",
+                             "O botão «Inserir no espaço» não depende mais da pasta se chamar «ESPACIO n»: a peça é reconhecida pelo nome ou código, e também funciona com os blocos de «Meus blocos».",
+                             "Menu de espaços: com a caixa «Escolher vários vãos juntos» (ou Shift + clique) você escolhe vários vãos seguidos do mesmo divisor (por exemplo, as prateleiras sem a gaveta de baixo) para uma porta ou frente que cubra só esses. A janela agora rola quando há muitos vãos.",
+                             "O menu de espaços já não oferece vãos que ficam fora do móvel (apareciam flutuando ao lado) e os grupos são recalculados com os vãos reais.",
+                             "Um divisor com 6 divisões tem 7 vãos: agora o sétimo (o de cima) também pode ser escolhido e preenchido. E o aviso de «o SketchUp fechou» já não se repete por engano.",
+                             "Os conjuntos de 2, 3 e 4 gavetas já não «quebram» o módulo ao inseri-los: antes o módulo esticava até o dobro de profundidade e as gavetas saíam; agora mantém a sua medida.",
+                             "A árvore de pastas já não mostra as pastas vazias nem as que só têm blocos despublicados.",
+                             "Meus blocos: ao guardar um bloco você escolhe a pasta (ou cria uma nova), pode criar pastas com o «+» e mudar o nome ou a pasta de qualquer bloco seu com o lápis. A miniatura é sempre mantida.",
+                             "Portas por espaço: agora você pode pôr uma porta de «ESPACIO 1» ou «ESPACIO 2» em qualquer espaço do módulo, também nos que cria um divisor ou prateleira. Você escolhe o espaço no menu e a porta toma a sua medida e acompanha o móvel se o aumentar."
                          ]
               }
 }
