@@ -1,7 +1,7 @@
 {
-    "version":  "1.1.17",
-    "rbz":  "https://raw.githubusercontent.com/marketergon-bit/dinamics3d-updates/main/dinamics_swap_1.1.17.rbz",
-    "sha256":  "c6c5570853396406764d0afcd0f103142ae34421fdce124e0b0d592879ea285d",
+    "version":  "1.1.18",
+    "rbz":  "https://raw.githubusercontent.com/marketergon-bit/dinamics3d-updates/main/dinamics_swap_1.1.18.rbz",
+    "sha256":  "0a569d695517a0b8eddae3bb25e84497af7034c9fde7478f9613fd30e517d3ec",
     "min_sketchup":  21,
     "notes":  {
                   "es":  [
@@ -25,7 +25,8 @@
                              "Mis bloques: al guardar un bloque elegís su carpeta (o creás una nueva), podés crear carpetas con el «+» y cambiar el nombre o la carpeta de cualquier bloque propio con el lápiz. La miniatura siempre se conserva.",
                              "Puertas por espacio: ahora podés poner una puerta de «ESPACIO 1» o «ESPACIO 2» en cualquier espacio del módulo, también en los que crea un divisor o una repisa. Elegís el espacio en el menú y la puerta toma su medida y sigue al mueble si lo agrandás.",
                              "Opciones de componentes: nuevo selector de unidad (mm, cm o pulgadas). Se guarda y vale para todos los módulos; las medidas se muestran y se escriben en la unidad que elijas.",
-                             "Opciones de componentes: ya no rechaza medidas que el módulo sí admite. En algunos módulos (p. ej. los ciegos) al achicar el ancho o el alto aparecía «Este módulo no permite esa medida» aunque el cambio era posible."
+                             "Opciones de componentes: ya no rechaza medidas que el módulo sí admite. En algunos módulos (p. ej. los ciegos) al achicar el ancho o el alto aparecía «Este módulo no permite esa medida» aunque el cambio era posible.",
+                             "Huecos y proyectos: nuevo bloque «Hueco» (un módulo vacío que marca el lugar de un mueble) y proyectos base con paredes y huecos ya acomodados. Elegís un hueco, tocás un módulo del catálogo y el módulo toma su lugar y su medida."
                          ],
                   "en":  [
                              "Fixes the error when inserting blocks in SketchUp 2021, 2022 and 2023 (\"Model is of a newer model version\").",
@@ -48,7 +49,8 @@
                              "My blocks: when you save a block you choose its folder (or create a new one), you can create folders with the «+» and change the name or folder of any of your blocks with the pencil. The thumbnail is always kept.",
                              "Doors by space: you can now put an «ESPACIO 1» or «ESPACIO 2» door in any space of the module, including the ones created by a divider or shelf. You pick the space in the menu and the door takes its size and follows the cabinet if you resize it.",
                              "Component options: new unit selector (mm, cm or inches). It is remembered and applies to all modules; measurements are shown and typed in the unit you choose.",
-                             "Component options: it no longer rejects sizes the module does accept. On some modules (e.g. the blind ones) shrinking the width or height showed «This module does not allow that size» even though the change was possible."
+                             "Component options: it no longer rejects sizes the module does accept. On some modules (e.g. the blind ones) shrinking the width or height showed «This module does not allow that size» even though the change was possible.",
+                             "Placeholders and projects: new «Placeholder» block (an empty module that marks where a cabinet goes) and base projects with walls and placeholders already laid out. Pick a placeholder, tap a catalog module and the module takes its place and size."
                          ],
                   "pt":  [
                              "Corrige o erro ao inserir blocos no SketchUp 2021, 2022 e 2023 («Model is of a newer model version»).",
@@ -71,7 +73,8 @@
                              "Meus blocos: ao guardar um bloco você escolhe a pasta (ou cria uma nova), pode criar pastas com o «+» e mudar o nome ou a pasta de qualquer bloco seu com o lápis. A miniatura é sempre mantida.",
                              "Portas por espaço: agora você pode pôr uma porta de «ESPACIO 1» ou «ESPACIO 2» em qualquer espaço do módulo, também nos que cria um divisor ou prateleira. Você escolhe o espaço no menu e a porta toma a sua medida e acompanha o móvel se o aumentar.",
                              "Opções de componentes: novo seletor de unidade (mm, cm ou polegadas). Fica guardado e vale para todos os módulos; as medidas são mostradas e digitadas na unidade que você escolher.",
-                             "Opções de componentes: já não rejeita medidas que o módulo aceita. Em alguns módulos (p. ex. os cegos) ao diminuir a largura ou a altura aparecia «Este módulo não permite essa medida» embora a mudança fosse possível."
+                             "Opções de componentes: já não rejeita medidas que o módulo aceita. Em alguns módulos (p. ex. os cegos) ao diminuir a largura ou a altura aparecia «Este módulo não permite essa medida» embora a mudança fosse possível.",
+                             "Vãos e projetos: novo bloco «Vão» (um módulo vazio que marca o lugar de um móvel) e projetos base com paredes e vãos já dispostos. Escolha um vão, toque num módulo do catálogo e o módulo toma o seu lugar e a sua medida."
                          ]
               }
 }
